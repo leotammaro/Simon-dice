@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+.row {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colores{
+    height: 400px;
+    width: 400px;
+    border: 1px grey solid;
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.azul{
+    background-color: blue;
+}
+.rojo{
+    background-color: red;
+}
+.verde{
+    background-color: greenyellow;
+}
+.amarillo{
+    background-color: yellow;
+}
+.perder{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+}
